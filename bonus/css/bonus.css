@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 800px;
+  margin: 1rem auto;
+}
+
+.centered {
+  justify-content: center;
+}
+
+div {
+  height: 3rem;
+}
+.red {
+  background-color: #f54234;
+}
+
+.brown {
+  background-color: #795348;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.black {
+  background-color: black;
+}
+
+.blue {
+  background-color: #0040ff;
+}
+
+.yellow {
+  background-color: #ffcc66;
+}
