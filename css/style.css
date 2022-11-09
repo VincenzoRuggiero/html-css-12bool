@@ -4,16 +4,25 @@
   box-sizing: border-box;
 }
 
-.row div {
+[class*="col-"] {
   border: 1px solid white;
   color: white;
-  padding: 0.5rem 0;
-}
-
-.blue {
+  padding: 0.5rem;
   background-color: #016dfa;
+  height: 2rem;
+  text-align: center;
 }
 
-.green {
+div .green {
   background-color: lightgreen;
+  border: 1px solid black;
+  color: black;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+.first-section .row div {
+  height: 100%;
 }
